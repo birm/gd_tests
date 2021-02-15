@@ -45,7 +45,7 @@ float f(float x){
 }
 
 int main(){
-  float theta = GD(f, 1.0F, 10000000, 0.5F, 0.01F);
+  float theta = GD(f, 1.0F, 1000000000, 0.5F, 0.01F);
    // printf("%f\n", theta);
   return 0;
 }

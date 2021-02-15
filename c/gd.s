@@ -139,7 +139,7 @@ main:
 	subq	$16, %rsp
 	movss	.LC3(%rip), %xmm2
 	movss	.LC4(%rip), %xmm1
-	movl	$10000000, %esi
+	movl	$1000000000, %esi
 	movss	.LC0(%rip), %xmm0
 	leaq	f(%rip), %rdi
 	call	GD
