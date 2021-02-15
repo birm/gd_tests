@@ -1,5 +1,5 @@
-# sgd_tests
-Tests about SGD
+# gd_tests
+Tests about Gradient Descent, but really performance, optimizer, and ASM tests
 
 ## Constants
 function : f(x) = (x-5)^2+7

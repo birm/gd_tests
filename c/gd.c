@@ -1,7 +1,7 @@
 // #include <stdio.h> // ONLY for my debugging
 
-// one dimensional SGD
-float SGD(float (*f)(float), float theta, int iters, float alpha, float delta){
+// one dimensional Gradient Descent
+float GD(float (*f)(float), float theta, int iters, float alpha, float delta){
   // f is the function to optimize on
   // theta is the inital theta point to try
   // iters is the number of iterations to run
@@ -45,7 +45,7 @@ float f(float x){
 }
 
 int main(){
-  float theta = SGD(f, 1.0F, 10000000, 0.5F, 0.01F);
+  float theta = GD(f, 1.0F, 10000000, 0.5F, 0.01F);
    // printf("%f\n", theta);
   return 0;
 }
