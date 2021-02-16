@@ -1,4 +1,4 @@
-// #include <stdio.h> // ONLY for my debugging
+ #include <stdio.h> // ONLY for my debugging
 
 // one dimensional Gradient Descent
 float GD(float (*f)(float), float theta, int iters, float alpha, float delta){
@@ -46,6 +46,6 @@ float f(float x){
 
 int main(){
   float theta = GD(f, 1.0F, 1000000000, 0.5F, 0.01F);
-   // printf("%f\n", theta);
+  printf("%f\n", theta);
   return 0;
 }
