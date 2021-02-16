@@ -25,6 +25,5 @@ _start:
     fadd seven
     fsubp
     faddp
-    here:
     dec %rcx
     jnz loopstart
